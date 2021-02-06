@@ -12,13 +12,10 @@ class UnicodeClass(object):
             i = 0
             textstr = ""
             for char in self.text:
-                print(char)
                 i = i + 1
                 for sublist in self.unilist:
                     if char == sublist[1]:
-                        print(char)
                         output = output + sublist[0]
-                        print(output)
             return output
         else:
             raise Exception("Not given correct type")
@@ -29,13 +26,10 @@ class UnicodeClass(object):
             i = 0
             textstr = ""
             for char in self.text:
-                print(char)
                 i = i + 1
                 for sublist in self.unilist:
                     if char == sublist[1]:
-                        print(char)
                         output.append(sublist[0])
-                        print(output)
             return output
         else:
             raise Exception("Not given correct type")
