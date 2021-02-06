@@ -19,6 +19,9 @@ print(uni.getTextList())
 Output: ['A' , 'B' , 'C' , 'D'] 
 
 
+
+
+
 Initialization to convert text string to Unicode
 
 from unicodeclass import UnicodeClass
