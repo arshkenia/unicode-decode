@@ -4,6 +4,7 @@ Python library to convert unicode to string & back
 There are 4 functions in the library
 
 Initialization to convert unicode string to text
+
 from unicodeclass import UnicodeClass
 uni = UnicodeClass("41424344" , types = "unicode")
 
@@ -19,6 +20,7 @@ Output: ['A' , 'B' , 'C' , 'D']
 
 
 Initialization to convert text string to Unicode
+
 from unicodeclass import UnicodeClass
 uni = UnicodeClass("ABCD" , types = "text")
 
