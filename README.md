@@ -19,13 +19,10 @@ print(uni.getTextList())
 Output: ['A' , 'B' , 'C' , 'D'] 
 
 
-
-
-
 <h2>Initialization to convert text string to Unicode</h2>
 
-from unicodeclass import UnicodeClass
-uni = UnicodeClass("ABCD" , types = "text")
+'''from unicodeclass import UnicodeClass
+uni = UnicodeClass("ABCD" , types = "text")'''
 
 <h3>Getting the String</h3>
 print(uni.getUnicodeString())
