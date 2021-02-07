@@ -13,7 +13,7 @@ print(uni.getTextString())
 
 Output: ABCD
 
-<h4>Getting a list containing the elements of the string</h4>
+<h3>Getting a list containing the elements of the string</h4>
 print(uni.getTextList())
 
 Output: ['A' , 'B' , 'C' , 'D'] 
@@ -22,18 +22,18 @@ Output: ['A' , 'B' , 'C' , 'D']
 
 
 
-Initialization to convert text string to Unicode
+<h2>Initialization to convert text string to Unicode</h2>
 
 from unicodeclass import UnicodeClass
 uni = UnicodeClass("ABCD" , types = "text")
 
-Getting the String
+<h3>Getting the String</h3>
 print(uni.getUnicodeString())
 
 Output: 41424344
 
 
-Getting the List
+<h3>Getting the List</h3>
 print(uni.getUnicodeList())
 
 Output: ['41', '42', '43', '44']
