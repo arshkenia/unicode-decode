@@ -23,6 +23,7 @@ Output: ['A' , 'B' , 'C' , 'D']
 
 <code>
 from unicodeclass import UnicodeClass
+<br>
 uni = UnicodeClass("ABCD" , types = "text")
  </code>
 
