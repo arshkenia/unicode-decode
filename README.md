@@ -1,19 +1,19 @@
 # unicode-decode
-Python library to convert unicode to string & back
+<h1>Python library to convert unicode to string & back</h1>
 
 There are 4 functions in the library
 
-Initialization to convert unicode string to text
+<h2>Initialization to convert unicode string to text</h2>
 
 from unicodeclass import UnicodeClass
 uni = UnicodeClass("41424344" , types = "unicode")
 
-Getting the string
+<h3>Getting the string</h3>
 print(uni.getTextString())
 
 Output: ABCD
 
-Getting a list containing the elements of the string
+<h4>Getting a list containing the elements of the string</h4>
 print(uni.getTextList())
 
 Output: ['A' , 'B' , 'C' , 'D'] 
