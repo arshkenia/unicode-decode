@@ -21,11 +21,12 @@ Output: ['A' , 'B' , 'C' , 'D']
 
 <h2>Initialization to convert text string to Unicode</h2>
 
+<pre>
 <code>
 from unicodeclass import UnicodeClass
-<br>
 uni = UnicodeClass("ABCD" , types = "text")
- </code>
+</code>
+</pre>
 
 <h3>Getting the String</h3>
 print(uni.getUnicodeString())
